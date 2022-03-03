@@ -64,6 +64,7 @@ ul {
   max-width: 1100px;
   height: 70px;
   margin: auto;
+  margin-bottom: 20px;
   color: #fff;
 }
 
@@ -102,7 +103,7 @@ ul {
 .intro-graph {
   padding-top: 30px;
   padding-bottom: 30px;
-  text-align: center;
+  /* text-align: center; */
   margin: auto 30px;
 }
 
@@ -116,12 +117,11 @@ ul {
   color: #0f131a;
 }
 
-/* Content */
+/* index content */
 
 .content {
   display: flex;
   justify-content: space-between;
-
   max-width: 1100px;
   margin: auto;
 }
@@ -174,4 +174,19 @@ ul {
 
 .content-card:hover {
   border: 2px rgb(0, 161, 100) solid;
+}
+
+/* Blog */
+
+.featured-blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  text-align: center;
+  margin: auto 20px;
+}
+
+.featured-blog h1 {
+  
 }
