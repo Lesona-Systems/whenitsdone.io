@@ -195,11 +195,12 @@ hr {
 .featured-blog {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   max-width: 1100px;
   text-align: center;
   margin: 20px auto;
+  max-width: 1100px;
 }
 
 .featured-blog h1 {
@@ -207,6 +208,10 @@ hr {
   font-size: 60px;
   line-height: 1.2;
   text-align: left;
+}
+
+.featured-blog a {
+  margin: auto;
 }
 
 .content-card-wide {
@@ -224,6 +229,7 @@ hr {
   width: 40%;
   border: 2px transparent solid;
   border-radius: 5px;
+  margin: auto;
 }
 
 .content-card-wide-desc h2 {
