@@ -12,6 +12,12 @@ html {
   background: #0f131a;
   color: #e8eaed;
   font-family: "Lato", sans-serif;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Hide scrollbar Chrome, Safari Opera */
 }
 
 a {
@@ -36,7 +42,6 @@ hr {
   color: #e8eaed;
   padding: 8px 15px;
   border-radius: 10px;
-  cursor: pointer;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
 }
 
@@ -90,6 +95,9 @@ hr {
   border-bottom: 1px #e8eaed solid;
 }
 
+.active {
+  color: rgb(0, 161, 100);
+}
 /* Intro */
 
 .intro {
@@ -208,31 +216,47 @@ hr {
   font-size: 60px;
   line-height: 1.2;
   text-align: left;
+  margin-bottom: 15px;
 }
 
-.featured-blog a {
-  margin: auto;
+.featured-blog h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 15px;
 }
+
+.featured-blog p {
+  max-width: 800px;
+}
+
+.featured-blog img {
+  max-width: 800px;
+  margin-bottom: 15px;
+  border: 1px transparent solid;
+  border-radius: 5px;
+}
+
+.featured-blog-hero {
+  display: flex;
+  background: url('../images/god_of_war.jpg') center center/cover no-repeat;
+  height: 100%;
+  width: 50%;
+}
+
 
 .content-card-wide {
   display: flex;
-  flex-direction: row;
-  background: #444;
-  width: 66%;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
   border: 2px #444 solid;
   border-radius: 5px;
-  overflow: hidden;
-  justify-content: space-between;
-}
-
-.content-card-wide img {
-  width: 40%;
-  border: 2px transparent solid;
-  border-radius: 5px;
+  height: 200px;
   margin: auto;
+  overflow: hidden;
 }
 
-.content-card-wide-desc h2 {
+.content-card-wide h2 {
   font-weight: 300;
   margin-top: 15px;
   margin-right: 20px;
