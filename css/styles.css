@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -17,7 +17,7 @@ html {
 }
 
 html::-webkit-scrollbar {
-  display: none; /* Hide scrollbar Chrome, Safari Opera */
+  display: none; /* Chrome, Safari Opera */
 }
 
 a {
@@ -146,7 +146,7 @@ hr {
   border: 2px #444 solid;
   border-radius: 5px;
   width: 300px;
-  height: 300px;
+  max-height: 300px;
   margin: auto;
   overflow: hidden;
 }
@@ -221,12 +221,15 @@ hr {
 
 .featured-blog h2 {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 15px;
 }
 
 .featured-blog p {
+  font-family: 'Lato', sans-serif;
   max-width: 800px;
+  font-size: 18px;
+  font-weight: 100;
 }
 
 .featured-blog img {
@@ -236,13 +239,22 @@ hr {
   border-radius: 5px;
 }
 
-.featured-blog-hero {
+.latest-blogs {
+  border-bottom: 2px #444 solid;
+  color: #e8eaed;
+  text-align: left;
+  text-transform: uppercase;
+  width: 950px;
+  min-width: none;
+  margin-bottom: 20px;
+}
+
+.post-hero {
   display: flex;
   background: url('../images/god_of_war.jpg') center center/cover no-repeat;
   height: 100%;
   width: 50%;
 }
-
 
 .content-card-wide {
   display: flex;
@@ -252,8 +264,12 @@ hr {
   border: 2px #444 solid;
   border-radius: 5px;
   height: 200px;
-  margin: auto;
+  margin: 20px auto;
   overflow: hidden;
+}
+
+.content-card-wide:hover {
+  border: 2px rgb(0, 161, 100) solid;
 }
 
 .content-card-wide h2 {
@@ -263,6 +279,6 @@ hr {
   padding-bottom: 10px;
 }
 
-.content-card-wide-desc p {
-  margin: 0px 15px;
+.content-card-wide p {
+  margin: 0px 20px;
 }
