@@ -254,22 +254,57 @@ hr {
   background: url('../images/god_of_war.jpg') center center/cover no-repeat;
   height: 100%;
   width: 50%;
+  font-weight: 400;
+  justify-content: left;
+  align-items: flex-start;
+  margin-right: auto;
+}
+
+.theory {
+  background: rgba(255, 145, 0, 0.85);
+}
+
+.dev {
+  background: rgba(195, 0, 255, 0.85);
+}
+
+.fps {
+  background: rgba(0, 255, 42, 0.85);
+}
+
+.post-hero h2 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px 10px;
+}
+
+.post-preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.posted-date {
+  margin-top: 30px;
 }
 
 .content-card-wide {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #333;
-  border: 2px #444 solid;
+  background: rgba(68, 68, 68, .2);
+  border: 3px #444 solid;
   border-radius: 5px;
+  max-width: 900px;
   height: 200px;
+  max-height: 200px;
   margin: 20px auto;
   overflow: hidden;
 }
 
 .content-card-wide:hover {
-  border: 2px rgb(0, 161, 100) solid;
+  border: 3px rgb(0, 161, 100) solid;
 }
 
 .content-card-wide h2 {
