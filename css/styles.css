@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -80,7 +80,7 @@ hr {
 }
 
 .navbar h1 {
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .navbar-links ul {
@@ -123,7 +123,7 @@ hr {
 }
 
 .intro-graph p {
-  font-weight: 300;
+  font-weight: 400;
   padding: 15px 15px;
 }
 
@@ -164,7 +164,7 @@ hr {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background: url('../images/whenitsdone_background_valve.jpeg') center center/cover no-repeat;
+  background: url('../images/rasp_pi_zoomed.jpg') center center/cover no-repeat;
   opacity: 80%;
 }
 
